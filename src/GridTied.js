@@ -3,19 +3,18 @@ import './App.css';
 import Button from '@material-ui/core/Button';
 import Center from 'react-center';
 import NavBar from './components/NavBar';
-import SimulationList from './components/SimulationList'
 
-class App extends Component {
+class GridTied extends Component {
   render() {
     return (
       <div>
         <NavBar />
-  
-   <SimulationList />
+
+
    </div>
 
     );
   }
 }
 
-export default App;
+export default GridTied;
